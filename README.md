@@ -1,26 +1,15 @@
-This source is the source for the Wick® Studio application on the Discord platform.  It is used to develop Discord bots using discord.js.
+# Wick® Studio Command Handler Template
 
- The following steps explain how to use the source:
+This is a simple command handler to help you create your own Discord bot.
 
- 1. Install all necessary libraries.  You can use npm to install them with the following command:
-    ```
-    npm install discord.js @discordjs/rest discord-api-types fs
-    ```
+## 🔧 Setup
 
- 2. Create a Discord app and get a Client ID and Token Bot.  You can do this by logging into https://discord.com/developers and creating a new app.
+- Open `discord.js-source-bot` folder and start the `setup.bat` file
+- Then select option `1 - Install Dependencies` which installs all necessary dependencies
+- Next open the `settings.json` file whoch is located in `src/` and fill out your information `token` & `clientId`
+- Then start the `setup.bat` file again and select the option `2 - Register Commands` which registers commands to your Discord bot
+- Finally start the bot by entering `node .` in your console or start `setup.bat` and select the option `3 - Run The Bot`
 
- 3. Replace 'Client_Id' with the Client ID of your application, replace 'Guild_Id' with the Guild ID of the server on which you want to use the bot, and replace 'Token' with the Token Bot of your application in the following codes.
+## 🔗 Links
 
- 4. There is a folder called "commands" in the same folder that contains the main code.  Place all the command files you want to add in this folder with .js extension.
-
- 5. Run the code and the bot will load the commands and reload them into the application on startup.
-
- 6. You can use the following link to join the Wick Studio server in Discord and get help if you have any questions:
-    https://discord.gg/wicks
-
- Make sure the following variables in your code are updated:
- - clientId: 'Client_Id' should be replaced with your application's Client ID.
- - guildId: You must replace 'Guild_Id' with the Guild ID of the server you want to use the bot on.
- - token: 'Token' should be replaced with your app's Token Bot.
-
- After running the source, you can use the commands you placed in the “commands” folder by typing them in the chat on the specific Discord server.
+[![](https://dcbadge.vercel.app/api/server/wicks)](https://discord.gg/NysD9gyx7R)
